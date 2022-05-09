@@ -48,10 +48,10 @@
     "dependencies": {},
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/GuildedAPI/authlink-next-auth.git"
+        "url": "git+https://github.com/GuildedAPI/next-auth-guilded.git"
     },
     "bugs": {
-        "url": "https://github.com/GuildedAPI/authlink-next-auth/issues"
+        "url": "https://github.com/GuildedAPI/next-auth-guilded/issues"
     },
-    "homepage": "https://github.com/GuildedAPI/authlink-next-auth#readme"
+    "homepage": "https://github.com/GuildedAPI/next-auth-guilded#readme"
 }

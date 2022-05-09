@@ -25,6 +25,6 @@ export default function Guilded<P extends GuildedProfile>(options: OAuthUserConf
                 lastOnline: data.lastOnline
             };
         },
-        ...options
+        options
     };
 }
