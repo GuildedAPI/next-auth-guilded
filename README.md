@@ -14,27 +14,7 @@ You can install this package from [NPM](https://www.npmjs.com/package/next-auth-
 ## ⚡ Usage
 
 ```typescript
-import express, { Request, Response } from "express";
-import multer from "multer";
-import { CloudflareStorage } from "next-auth-guilded";
 
-const app = express();
-const uploader = multer({
-    storage: new CloudflareStorage("YOUR_CLOUDFLARE_ACCOUNT_ID_HERE", "YOUR_CLOUDFLARE_ACCOUNT_TOKEN_HERE")
-});
-
-app.post("/", uploader.single("image"), (req: Request, _res: Response) => {
-    console.log(req.file);
-    // {
-    //     fieldname: 'image',
-    //     originalname: 'PLACEHOLDER_IMAGE_NAME.jiff',
-    //     encoding: '7bit',
-    //     mimetype: 'application/octet-stream',
-    //     path: 'https://imagedelivery.net/PLACEHOLDER_ACCOUNT_ID/PLACEHOLDER_IMAGE_ID/public',
-    //     filename: null,
-    //     destination: 'PLACEHOLDER_IMAGE_ID'
-    // }
-});
 ```
 
 ## ✋ Contributing
