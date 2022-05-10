@@ -10,8 +10,8 @@ export default function Guilded<P extends GuildedProfile>(options: OAuthUserConf
             url: "https://authlink.guildedapi.com/auth",
             params: { scope: "identify" }
         },
-        token: "https://oauth.guildedapi.com/v1/token",
-        userinfo: "https://oauth.guildedapi.com/v1/users/@me",
+        token: "https://authlink.guildedapi.com/api/v1/token",
+        userinfo: "https://authlink.guildedapi.com/api/v1/users/@me",
         profile(data: GuildedProfile) {
             return {
                 id: data.id,
