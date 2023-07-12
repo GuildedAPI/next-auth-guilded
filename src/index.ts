@@ -7,11 +7,11 @@ export default function Guilded<P extends GuildedProfile>(options: OAuthUserConf
         name: "Guilded",
         type: "oauth",
         authorization: {
-            url: "https://authlink.guildedapi.com/auth",
+            url: "https://authlink.app/auth",
             params: { scope: "identify" }
         },
-        token: "https://authlink.guildedapi.com/api/v1/token",
-        userinfo: "https://authlink.guildedapi.com/api/v1/users/@me",
+        token: "https://authlink.app/api/v1/token",
+        userinfo: "https://authlink.app/api/v1/users/@me",
         profile(data: GuildedProfile) {
             return {
                 id: data.id,
