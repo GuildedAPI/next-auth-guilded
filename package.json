@@ -1,7 +1,7 @@
 {
     "name": "next-auth-guilded",
     "version": "1.0.2",
-    "description": "Provider for the unofficial Guilded OAuth API (https://authlink.guildedapi.com) 🚀",
+    "description": "Provider for the unofficial Guilded OAuth API (https://authlink.app) 🚀",
     "author": "Zaid \"Nico\" <contact@nico.engineer>",
     "license": "MIT",
     "main": "dist/index.js",
