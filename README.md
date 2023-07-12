@@ -31,7 +31,7 @@ You can override any of the options to suit your own use case.
 
 ## Documentation
 
-https://authlink.guildedapi.com/dev/docs
+https://authlink.app/dev/docs
 
 
 ## ✋ Contributing
