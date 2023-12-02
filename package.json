@@ -4,12 +4,13 @@
     "description": "Provider for the unofficial Guilded OAuth API (https://authlink.app) 🚀",
     "author": "Zaid \"Nico\" <contact@nico.engineer>",
     "license": "MIT",
-    "main": "dist/index.js",
-    "types": "dist/types/index.d.ts",
+    "main": "./dist/index.js",
+    "types": "./dist/types/index.d.ts",
     "exports": {
         ".": {
             "require": "./dist/index.js",
-            "import": "./dist/index.mjs"
+            "import": "./dist/index.mjs",
+            "types": "./dist/types/index.d.ts"
         },
         "./": "./"
     },
